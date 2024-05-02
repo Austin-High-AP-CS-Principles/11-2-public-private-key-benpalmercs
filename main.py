@@ -26,4 +26,10 @@ def primes_less_than(n):
 			all_primes.append(p)
 	return all_primes
 
+def find_e(n,t):
+	possibles = []
+	for i in range(t):
+
+
+
 print("All primes less than 1,000:\n"+str(primes_less_than(1000)))
